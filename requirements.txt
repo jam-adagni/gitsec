@@ -1,0 +1,11 @@
+pandas 
+scikit-learn
+python-dotenv
+yara-python
+PyGithub
+numpy
+osubprocess
+shutil
+stat
+pickle
+sys
