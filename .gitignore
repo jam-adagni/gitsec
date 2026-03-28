@@ -1,0 +1,8 @@
+
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+sandbox_temp/
+testing_repos/
