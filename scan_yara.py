@@ -56,7 +56,13 @@ def scan_folder(folder_path):
 # MAIN
 # ----------------------------
 if __name__ == "__main__":
-    folder = input("Enter repo folder path: ").strip()
+    import sys
+
+    if len(sys.argv) < 2:
+        print("❌ No folder path provided")
+        sys.exit(1)
+
+    folder = sys.argv[1]
 
     if not os.path.exists(folder):
         print("❌ Invalid path")

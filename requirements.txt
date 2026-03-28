@@ -4,7 +4,8 @@ python-dotenv
 yara-python
 PyGithub
 numpy
-osubprocess
+os
+subprocess
 shutil
 stat
 pickle
